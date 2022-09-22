@@ -1,0 +1,33 @@
+int main()
+{
+
+int num1;
+int num2;
+int num3;
+int num4;
+
+    printf("Digite um número inteiro: \n");
+    scanf("%d" , &num1);
+    
+    printf("Digite um número inteiro: \n");
+    scanf("%d", &num2);
+    
+    printf("Digite um número inteiro: \n");
+    scanf("%d", &num3);
+    
+    printf("Digite um número inteiro: \n");
+    scanf("%d", &num4);
+    
+    int saber = num1 % 2;
+    printf("%d \n", saber);
+  
+     int saber2 = num2 % 2;
+    printf("%d \n", saber2);
+  
+     int saber3 = num3 % 2;
+    printf("%d \n", saber3);
+  
+     int saber4 = num4 % 2;
+    printf("%d \n", saber4);
+    
+}

@@ -1,0 +1,12 @@
+int main(){
+
+int num1;
+
+printf("Digite as horas: \n");
+scanf("%d", &num1);
+
+int resultado = num1 * 60;
+printf("%d", resultado);
+getchar();
+return 0 ;
+}
