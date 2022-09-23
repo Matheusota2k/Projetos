@@ -18,10 +18,10 @@ int main(){
 	else if (idade >= 11 && idade <= 13)
 	printf ("Juvenil A");
 	
-	else if (idade >= 14 && idade <= 17)
+	else if (idade >= 14 && idade <= 16)
 	printf ("Juvenil B");
 	
-	else if (idade > 17)
+	else if (idade >= 17 )
 	printf ("Senior");
 		
 }
