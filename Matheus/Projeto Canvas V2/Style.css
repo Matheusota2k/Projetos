@@ -1,6 +1,6 @@
 
 body{
-    background-image: linear-gradient(to right, rgb(163, 163, 163),rgb(95, 95, 95));
+    background-image: linear-gradient(to right, rgb(255, 255, 255),rgb(255, 255, 255));
 }
 
 html{
@@ -18,7 +18,7 @@ main #Introdução{
 main #imagem1{
     position: absolute;
     left: 50%;
-    top: 20%;
+    top: 30%;
 
 }
 main #What{
@@ -38,8 +38,8 @@ main #How{
 }
 main #imagem2{
     position: absolute;
-    left: 50%;
-    top: 140%;
+    left: 55%;
+    top: 150%;
 
 }
 
@@ -58,7 +58,7 @@ main #imagem2{
 .inputEmail {
     background: none;
     border: none;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid rgb(0, 0, 0);
     color: black;
     font-size: 80%;
     width: 100%;
@@ -74,5 +74,5 @@ main #imagem2{
 .inputEmail:focus ~ .SobreP, .inputEmail:valid ~ .SobreP{
     top: 35%;
     font-size: 85%;
-    color: rgb(37, 113, 255);
+    color: rgb(0, 0, 0);
 }
