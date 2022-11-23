@@ -1,0 +1,78 @@
+
+body{
+    background-image: linear-gradient(to right, rgb(163, 163, 163),rgb(95, 95, 95));
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header .container{
+    padding: 20px;
+}
+main #Introdução{
+    padding-top: 100px;
+    padding-left: 150px;
+
+
+}
+main #imagem1{
+    position: absolute;
+    left: 50%;
+    top: 20%;
+
+}
+main #What{
+    word-wrap: normal;
+    padding-top: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+
+}
+main #How{
+    word-wrap: normal;
+    padding-top: 100px;
+    padding-left: 150px;
+    padding-bottom: 50px;
+    padding-right: 150px;
+
+}
+main #imagem2{
+    position: absolute;
+    left: 50%;
+    top: 140%;
+
+}
+
+.heading {
+    text-align: center;
+}
+.box {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.inputBox {
+    position: relative;
+    top: 0%;
+}
+.inputEmail {
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    color: black;
+    font-size: 80%;
+    width: 100%;
+    letter-spacing: 10%;
+    outline: none;
+}
+.SobreP {
+    position: absolute;
+    top: 45%;
+    left: 0%;
+    pointer-events: none;
+}
+.inputEmail:focus ~ .SobreP, .inputEmail:valid ~ .SobreP{
+    top: 35%;
+    font-size: 85%;
+    color: rgb(37, 113, 255);
+}
