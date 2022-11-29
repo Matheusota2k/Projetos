@@ -8,7 +8,7 @@
 
 	$pdo = new PDO("mysql:dbname=".$dbname.";host:".$dbhost."", "".$dbuser."", $dbpass);
 	
-	//$pdo = new PDO("mysql:host=192.168.0.10; dbname=erp_database", "db_admin", "Abcd1234");
+	$pdo = new PDO("mysql:host=192.168.0.10; dbname=erp_database", "db_admin", "Abcd1234");
 
 	$email = $_REQUEST['email'];
 		
