@@ -1,0 +1,39 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header .container{
+    padding: 20px;
+}
+main #Introdução{
+    padding-top: 100px;
+    padding-left: 150px;
+
+
+}
+main #imagem1{
+    position: absolute;
+    left: 50%;
+    top: 20%;
+
+}
+main #What{
+    word-wrap: normal;
+    padding-top: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
+
+}
+main #How{
+    word-wrap: normal;
+    padding-top: 100px;
+    padding-left: 150px;
+    padding-bottom: 50px;
+    padding-right: 150px;
+
+}
+main #imagem2{
+    position: absolute;
+    left: 60%;
+    top: 140%;
+
+}
